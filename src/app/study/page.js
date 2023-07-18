@@ -8,3 +8,9 @@ export default function page() {
     </div>
   );
 }
+// SEO mate saru sapret dinamic meta data
+export function generateMetadata({ params }) {
+  return {
+    title: "study page",
+  };
+}

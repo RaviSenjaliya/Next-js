@@ -23,3 +23,9 @@ export default function page() {
     </div>
   );
 }
+
+export function generateMetadata() {
+  return {
+    title: "student page",
+  };
+}
